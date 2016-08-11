@@ -26,6 +26,8 @@ div[class='jumbotron']{
 
 .content {
 	margin-top:2%;
+	margin-left:1%;
+	margin-right:1%;
 }
 
 .anchor {
@@ -72,7 +74,13 @@ div[class='jumbotron']{
 	
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 400px) {
+	.content {
+		margin-top:2%;
+		margin-left:1%;
+		margin-right:1%;
+	}
+
 	div[class='jumbotron']{
 		text-align:center;	
 		font-size:24pt;

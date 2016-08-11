@@ -1,37 +1,41 @@
 $(document).ready(function(){
 	$('#leftmotor').mousedown(function(){
-		$.post("http://192.168.43.72:3000/left",
-		{
-			name: "Donald Duck",
-			city: "Duckburg"
-		},
-		function(data, status){
-			
-		});
+		$.post("/left",
+		{},
+		function(data, status){});
 	});
 	
 	$('#leftmotor').mouseup(function(){
 		 $.ajax({
-			url:"http://192.168.43.72:3000/left",
+			url:"/left",
 			type: 'delete',
 			success:function(msg){}
 		});
 	});
 	
 	$('#rightmotor').mousedown(function(){
-		$.post("http://192.168.43.72:3000/right",
-		{
-			name: "Donald Duck",
-			city: "Duckburg"
-		},
-		function(data, status){
-			
-		});
+		$.post("/right",
+		{},
+		function(data, status){});
 	});
 	
 	$('#rightmotor').mouseup(function(){
 		 $.ajax({
-			url:"http://192.168.43.72:3000/right",
+			url:"/right",
+			type: 'delete',
+			success:function(msg){}
+		});
+	});
+	
+	$('#leftmotor').on('taphold',function(){
+		$.post("/left",
+		{},
+		function(data, status){});
+	});
+	
+	$('#leftmotor').on('tap',function(){
+		 $.ajax({
+			url:"/left",
 			type: 'delete',
 			success:function(msg){}
 		});
