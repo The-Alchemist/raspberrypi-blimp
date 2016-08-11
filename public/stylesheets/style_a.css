@@ -71,3 +71,26 @@ div[class='jumbotron']{
 @media only screen and (max-device-width: 1680px) {
 	
 }
+
+@media only screen and (max-device-width: 500px) {
+	div[class='jumbotron']{
+		text-align:center;	
+		font-size:24pt;
+		font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";	
+	}
+	#leftmotor {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color:rgb(238,238,238);
+	}
+
+	#rightmotor {	
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color:rgb(238,238,238);
+	}
+}
