@@ -1,11 +1,14 @@
 $(document).ready(function(){
-	$('#leftmotor').mousedown(function(){
+
+	
+	
+	$('#leftmotor').on('touchstart', function(){
 		$.post("/left",
 		{},
 		function(data, status){});
 	});
 	
-	$('#leftmotor').mouseup(function(){
+	$('#leftmotor').on('touchend',function(){
 		 $.ajax({
 			url:"/left",
 			type: 'delete',
@@ -13,29 +16,15 @@ $(document).ready(function(){
 		});
 	});
 	
-	$('#rightmotor').mousedown(function(){
+	$('#rightmotor').on('touchstart',function(){
 		$.post("/right",
 		{},
 		function(data, status){});
 	});
 	
-	$('#rightmotor').mouseup(function(){
+	$('#rightmotor').on('touchend',function(){
 		 $.ajax({
 			url:"/right",
-			type: 'delete',
-			success:function(msg){}
-		});
-	});
-	
-	$('#leftmotor').on('taphold',function(){
-		$.post("/left",
-		{},
-		function(data, status){});
-	});
-	
-	$('#leftmotor').on('tap',function(){
-		 $.ajax({
-			url:"/left",
 			type: 'delete',
 			success:function(msg){}
 		});
