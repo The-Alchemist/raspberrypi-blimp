@@ -19,7 +19,7 @@ $(document).ready(function(){
 	});
 	
 	$('#rightmotor').mousedown(function(){
-		$.post("http://192.168.43.72:3000/left",
+		$.post("http://192.168.43.72:3000/right",
 		{
 			name: "Donald Duck",
 			city: "Duckburg"
@@ -31,7 +31,7 @@ $(document).ready(function(){
 	
 	$('#rightmotor').mouseup(function(){
 		 $.ajax({
-			url:"http://192.168.43.72:3000/left",
+			url:"http://192.168.43.72:3000/right",
 			type: 'delete',
 			success:function(msg){}
 		});
