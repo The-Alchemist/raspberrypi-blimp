@@ -42,7 +42,7 @@ function backwards(motor) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Blimp Controller' });
 });
 
 router.post('/left', function(req, res, next) {
