@@ -1,9 +1,3 @@
-body {
-	font-size: 14px;
-	font-family:Georgia, "Arial Narrow", Serif, "Sans Serif";
-	foreground-color: darkgray;
-}
-
 a:link {
 	text-decoration:none;
 }
@@ -16,10 +10,8 @@ h3 {
 	text-align:center;
 }
 
-div[class='jumbotron']{
-	text-align:center;	
-	font-size:34pt;
-	font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";
+body {
+	font-family:"Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 
@@ -41,36 +33,14 @@ div[class='jumbotron']{
 
 	
 @media only screen and (orientation: portrait) {
-	.leftdown {	
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;		
-		color:rgb(238,238,238);
-		background-color:black;
-		padding:5%;
-		float:left;	
-		-webkit-user-select:none;
-		-webkit-touch-callout:none:
-		text-align:center;	
-		font-size:27pt;
-		font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";
+	.down {		
+		background-color:lightgray;	
+		color:rgb(103,103,238);	
 	}
 	
-	.rightdown {	
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;		
-		color:rgb(238,238,238);
-		background-color:black;
-		padding:5%;
-		float:right;	
-		-webkit-user-select:none;
-		-webkit-touch-callout:none:
-		text-align:center;	
-		font-size:27pt;
-		font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";
+	.up {		
+		background-color:rgb(103,103,238);
+		color:lightgray;
 	}
 	
 	.content {
@@ -84,11 +54,9 @@ div[class='jumbotron']{
 		border-top-right-radius:10px;
 		border-bottom-left-radius:10px;
 		border-bottom-right-radius:10px;
-		background-color:rgb(238,238,238);
-		color:black;
 		padding:5%;	
 		font-size:27pt;
-		float:left;	
+		float:left;
 		-webkit-user-select:none;
 		-webkit-touch-callout:none:
 	}
@@ -98,8 +66,6 @@ div[class='jumbotron']{
 		border-top-right-radius:10px;
 		border-bottom-left-radius:10px;
 		border-bottom-right-radius:10px;
-		background-color:rgb(238,238,238);
-		color:black;
 		padding:5%;	
 		font-size:27pt;
 		float:right;
@@ -109,36 +75,14 @@ div[class='jumbotron']{
 }	
 	
 @media only screen and (orientation: landscape) {
-	.leftdown {	
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;		
-		color:rgb(238,238,238);
-		background-color:black;
-		padding:5%;
-		float:left;	
-		-webkit-user-select:none;
-		-webkit-touch-callout:none:
-		text-align:center;	
-		font-size:34pt;
-		font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";
+	.down {		
+		background-color:lightgray;	
+		color:rgb(103,103,238);	
 	}
 	
-	.rightdown {	
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;		
-		color:rgb(238,238,238);
-		background-color:black;
-		padding:5%;
-		float:right;	
-		-webkit-user-select:none;
-		-webkit-touch-callout:none:
-		text-align:center;	
-		font-size:34pt;
-		font-family:Garamond, Georgia, Serif, "Times New Roman", "Sans Serif";
+	.up {		
+		background-color:rgb(103,103,238);
+		color:lightgray;
 	}	
 	
 	.content {
@@ -152,12 +96,12 @@ div[class='jumbotron']{
 		border-top-right-radius:10px;
 		border-bottom-left-radius:10px;
 		border-bottom-right-radius:10px;
-		background-color:rgb(238,238,238);
-		color:black;
 		padding:5%;
 		float:left;	
 		-webkit-user-select:none;
 		-webkit-touch-callout:none:
+		text-align:center;	
+		font-size:34pt;
 	}
 
 	#rightmotor {
@@ -165,11 +109,11 @@ div[class='jumbotron']{
 		border-top-right-radius:10px;
 		border-bottom-left-radius:10px;
 		border-bottom-right-radius:10px;
-		background-color:rgb(238,238,238);
-		color:black;
 		padding:5%;
 		float:right;
 		-webkit-user-select:none;
 		-webkit-touch-callout:none:
+		text-align:center;	
+		font-size:34pt;
 	}
 }	
