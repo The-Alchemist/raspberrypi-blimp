@@ -22,10 +22,14 @@ Many suppliers have these parts, but we mostly bought from Adafruit so those are
 
 ## Instructions
 * install dependencies:
-     $ ``npm install``
+```
+     $ npm install
+```
 
-* run the app:
-     $ ``DEBUG=raspberrypi-blimp:* npm start``
+* run the Node.js app:
+```
+     $ DEBUG=raspberrypi-blimp:* npm start
+```
 
 
 ## After-Action Review (AAR)
