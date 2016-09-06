@@ -38,6 +38,7 @@ Many suppliers have these parts, but we mostly bought from Adafruit so those are
   * NOTE: we did not use the old node.js that comes with Raspian
 * [wiring-pi NPM module](https://www.npmjs.com/package/wiring-pi) used for GPIO for the [Pimoroni Explorer pHAT for Raspberry Pi Zero](https://www.adafruit.com/products/3018)
 * [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/)
+* [WebStorm](https://www.jetbrains.com/webstorm/) for editing HTML/Javascript
 
 ## Photos
 ![photo of blimp mid-air](https://drive.google.com/uc?export=view&id=0Bzjh30aiCt2JTUQwSXp6SEJsam8)
