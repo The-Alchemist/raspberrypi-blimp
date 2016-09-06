@@ -42,26 +42,30 @@ function backwards(motor) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Blimp Controller' });
 });
 
 router.post('/left', function(req, res, next) {
   console.log('Should enable left motor');
+  forwards(motor1);
   res.status(200).json({ test: 'message' })
 });
 
 router.delete('/left', function(req, res, next) {
   console.log('Should stop left motor');
+  stop(motor1);
   res.status(200).json({ test: 'message' })
 });
 
 router.post('/right', function(req, res, next) {
   console.log('Should enable right motor');
+  forwards(motor2);
   res.status(200).json({ test: 'message' })
 });
 
 router.delete('/right', function(req, res, next) {
   console.log('Should stop right motor');
+  stop(motor2);
   res.status(200).json({ test: 'message' })
 });
 
