@@ -28,8 +28,9 @@ Many suppliers have these parts, but we mostly bought from Adafruit so those are
 
 * run the Node.js app:
 ```
-     $ DEBUG=raspberrypi-blimp:* npm start
+     $ DEBUG=raspberrypi-blimp:* PORT=3000 sudo npm start
 ```
+* NOTE: the ``PORT`` environment variable is optional, but ``sudo`` is not ([wiring-pi](https://github.com/eugeneware/wiring-pi) needs it)
 
 ## Software Design
 
