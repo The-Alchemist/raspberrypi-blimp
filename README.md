@@ -43,8 +43,10 @@ Many suppliers have these parts, but we mostly bought from Adafruit so those are
 * [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/)
 * [WebStorm](https://www.jetbrains.com/webstorm/) for editing HTML/Javascript
 
-## Photos
+## Photos and Screenshots
 ![photo of blimp mid-air](https://drive.google.com/uc?export=view&id=0Bzjh30aiCt2JTUQwSXp6SEJsam8)
+![screenshot of app on smartphone](https://drive.google.com/uc?export=view&id=0Bzjh30aiCt2JSGphYVl1VzBvclE)
+
 
 ## After-Action Review (AAR)
 * it was much too heavy
