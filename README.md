@@ -36,6 +36,8 @@ Many suppliers have these parts, but we mostly bought from Adafruit so those are
 * [node.js](https://nodejs.org/) v4
   * simple RESTful web service that accepts POSTs and DELETEs to ``/left`` and ``/right`` to independently control the motors
   * NOTE: we did not use the old node.js that comes with Raspian
+    * to uninstall the old node.js on Raspian, run ``sudo apt remove nodejs``
+    * to install a new node.js, follow [the instructions on node.js for installation with a package manager](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 * [wiring-pi NPM module](https://www.npmjs.com/package/wiring-pi) used for GPIO for the [Pimoroni Explorer pHAT for Raspberry Pi Zero](https://www.adafruit.com/products/3018)
 * [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/)
 * [WebStorm](https://www.jetbrains.com/webstorm/) for editing HTML/Javascript
