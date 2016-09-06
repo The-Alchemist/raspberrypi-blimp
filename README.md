@@ -18,7 +18,11 @@
  - holds about five cubic feet of helium
 - [9 cubit foot helium tank](http://www.walmart.com/ip/Balloon-Time-9.5-Helium-Balloon-Tank-Kit-with-30-Balloons/49382071)
  - WalMart had the lowest cost for the helium, and oddly, the price per cubic foot went UP with the higher capacity tanks
+
 Many suppliers have these parts, but we mostly bought from Adafruit so those are the hyperlinks we are including.
+
+# raspberrypi-blimp
+RC Blimp using Raspberry Pi and Explorer pHat
 
 ## Instructions
 * install dependencies:
