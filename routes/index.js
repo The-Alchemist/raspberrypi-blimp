@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var sleep= require('sleep');
-var wpi = require('wiring-pi');
+var wpi = require('wiringpi-node');
 
 wpi.setup('wpi');
 
